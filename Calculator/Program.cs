@@ -6,7 +6,8 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Calculator calc = new Calculator();
+            Console.WriteLine(calc.mathAddition(54, 29));
         }
     }
 }
